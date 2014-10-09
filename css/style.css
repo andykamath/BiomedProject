@@ -14,6 +14,8 @@ body
 div {
     -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
     animation: myfirst 5s;
+    -webkit-animation: mysecond 5s; /* Chrome, Safari, Opera */
+    animation: mysecond 5s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     height: 100%;
@@ -30,4 +32,15 @@ div {
 @keyframes myfirst {
     from {background: red;}
     to {background: yellow;}
+}
+
+@-webkit-keyframes mysecond {
+    from {background: yellow;}
+    to {background: red;}
+}
+
+/* Standard syntax */
+@keyframes mysecond {
+    from {background: yellow;}
+    to {background: red;}
 }
