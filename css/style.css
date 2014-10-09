@@ -25,7 +25,7 @@ div {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes myfirst {
     from {background: red;}
-    to {background: yellow;}
+    to {background: yellow;background: red;}
 }
 
 /* Standard syntax */
@@ -41,6 +41,5 @@ div {
 
 /* Standard syntax */
 @keyframes mysecond {
-    from {background: yellow;}
-    to {background: red;}
+    
 }
