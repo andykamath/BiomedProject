@@ -11,8 +11,21 @@ body
 	width: 100%;
 }
 
-div
-{
-	height: 100%;
+div {
+    -webkit-animation: myfirst infinite; /* Chrome, Safari, Opera */
+    animation: myfirst infinite;
+    height: 100%;
 	width: 100%;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {background: red;}
+    to {background: yellow;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    from {background: red;}
+    to {background: yellow;}
 }
