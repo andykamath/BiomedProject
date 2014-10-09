@@ -18,6 +18,7 @@ div {
     animation: mysecond 5s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    animation: mysecond alternate;
     height: 100%;
 	width: 100%;
 }
