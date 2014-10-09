@@ -12,8 +12,8 @@ body
 }
 
 div {
-    -webkit-animation: myfirst infinite; /* Chrome, Safari, Opera */
-    animation: myfirst infinite;
+    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+    animation: myfirst 5s;
     height: 100%;
 	width: 100%;
 }
