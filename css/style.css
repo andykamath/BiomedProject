@@ -36,7 +36,7 @@ div {
 
 @-webkit-keyframes mysecond {
     from {background: yellow;}
-    to {background: red;}
+    to {background: red;background: yellow;}
 }
 
 /* Standard syntax */
