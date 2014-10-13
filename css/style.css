@@ -13,32 +13,8 @@ body
 
 @-webkit-keyframes pulse { 0% {background-color: #45CEEF;} 25% {background-color: #FFF5A5;} 50% {background-color: #FFD4DA;} 75% {background-color: #99D2E4;} 100% {background-color: #D8CAB4;} }
 
-div {
+.jumbotron {
     -webkit-animation: pulse 4s infinite alternate;
     height: 100%;
     width: 100%;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes myfirst {
-    from {background: red;}
-    to {background: yellow;background: red;}
-}
-
-/* Standard syntax */
-@keyframes myfirst {
-    from {background: red;}
-    to {background: yellow;}
-}
-
-@-webkit-keyframes mysecond {
-    from {background: red;}
-    to {background: purple;}
-    from {background: purple;}
-    to {background: red;}
-}
-
-/* Standard syntax */
-@keyframes mysecond {
-    
 }
