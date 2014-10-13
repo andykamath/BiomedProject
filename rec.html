@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jQuery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+        this.toggleClass("active");
+	  });
+	});
+		</script>
+		<meta name="keywords" content="hackgician,hackgician llc,hackgician apps,andy kamath,james seddon,hack,computer,programming,.NET,Windows,Microsoft,HTML,CSS,JS,Javascript,hacker,programmer,web,designer,web design CLT,web designer,Charlotte,NC,North Carolina,Charlotte NC,Website Designer Charlotte">
+        <meta name="description" content="Hackgician is a website design and implementation company based out of Charlotte, NC. We specialize in corporate or company website development.">
+		<title>Diabeetus &middot; Recommendations</title>
+		<link rel="shortcut icon" href="/img/icon.ico">
+	</head>
+
+	<body>
+        <div align="center" class="jumbotron">
+        	<h1 class="animated fadeInUp">Recommendations</h1>
+        	<a href="background.html"><h3 class="wow fadeInUp" style="color:black" data-wow-delay="1s">Continue <i class="fa fa-arrow-circle-right"></i></h3></a>
+        </div>
+		<script type="text/javascript" src="js/WOW.js"></script>
+		<script>new WOW().init();</script>
+	</body>
+</html>
